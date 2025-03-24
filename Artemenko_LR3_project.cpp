@@ -31,18 +31,24 @@ int main()
     int answer;
     float A;
     float B;
-    cout<<"Введите число A: ";
-    prov(A);
-    cout<<"Введите число B: ";
-    prov(B);
-    cout<<"Что вас интересует?\n1)Сумма\n2)Разность"<<endl;
+    cout<<"1) Ввести число A"<<endl;;
+    cout<<"2) Ввести число B"<<endl;
+    cout<<"3)Сумма\n4)Разность"<<endl;
     prov(answer);
     switch(answer)
     {
     case 1:
-        cout<<"Сумма равна - "<<A+B<<endl;
+        cout<<"Введите A: ";
+        prov(A);
         main();
     case 2:
+        cout<<"Введите B: ";
+        prov(B);
+        main();
+    case 3:
+        cout<<"Сумма равна - "<<A+B<<endl;
+        main();
+    case 4:
         if(A>B)
         {cout<<"Разность равна - "<<A-B<<endl;}
         else;
