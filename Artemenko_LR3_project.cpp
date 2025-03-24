@@ -25,6 +25,35 @@ void prov(float& number1)
 	}
 }
 
+void task1(float& A)
+{
+    cout<<"Введите A: ";
+        prov(A);
+        //main();
+}
+void task2(float& B)
+{
+    cout<<"Введите B: ";
+        prov(B);
+        //main();
+
+}
+
+void task3(float& A, float& B)
+{
+    cout<<"Сумма равна - "<<A+B<<endl;
+    //main();
+}
+
+void task4(float& A, float& B)
+{
+    if(A>B)
+    {cout<<"Разность равна - "<<A-B<<endl;}
+    else;
+    cout<<"Разность равна - "<<B-A<<endl;
+    //main();
+}
+
 int main()
 {
     setlocale(LC_ALL, "rus");
@@ -38,21 +67,16 @@ int main()
     switch(answer)
     {
     case 1:
-        cout<<"Введите A: ";
-        prov(A);
+        task1(A);
         main();
     case 2:
-        cout<<"Введите B: ";
-        prov(B);
+        task2(B);
         main();
     case 3:
-        cout<<"Сумма равна - "<<A+B<<endl;
+        task3(A, B);
         main();
     case 4:
-        if(A>B)
-        {cout<<"Разность равна - "<<A-B<<endl;}
-        else;
-        cout<<"Разность равна - "<<B-A<<endl;
+        task4(A, B);
         main();
     default:
         cout<<"Введите подходящее число: "<<endl;
