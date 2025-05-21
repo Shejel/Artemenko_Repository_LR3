@@ -32,6 +32,14 @@ void task1(float& A)
         //main();
 }
 
+void task2(float& B)
+{
+    cout<<"Введите B: ";
+        prov(B);
+        //main();
+
+}
+
 int main()
 {
     setlocale(LC_ALL, "rus");
