@@ -25,34 +25,6 @@ void prov(float& number1)
 	}
 }
 
-void task1(float& A)
-{
-    cout<<"Введите A: ";
-        prov(A);
-        //main();
-}
-void task2(float& B)
-{
-    cout<<"Введите B: ";
-        prov(B);
-        //main();
-
-}
-
-void task3(float& A, float& B)
-{
-    cout<<"Сумма равна - "<<A+B<<endl;
-    //main();
-}
-
-void task4(float& A, float& B)
-{
-    if(A>B)
-    {cout<<"Разность равна - "<<A-B<<endl;}
-    else;
-    cout<<"Разность равна - "<<B-A<<endl;
-    //main();
-}
 
 int main()
 {
