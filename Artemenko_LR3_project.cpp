@@ -46,6 +46,15 @@ void task3(float& A, float& B)
     //main();
 }
 
+void task4(float& A, float& B)
+{
+    if(A>B)
+    {cout<<"Разность равна - "<<A-B<<endl;}
+    else;
+    cout<<"Разность равна - "<<B-A<<endl;
+    //main();
+}
+
 int main()
 {
     setlocale(LC_ALL, "rus");
