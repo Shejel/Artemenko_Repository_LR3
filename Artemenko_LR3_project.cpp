@@ -25,6 +25,12 @@ void prov(float& number1)
 	}
 }
 
+void task1(float& A)
+{
+    cout<<"Введите A: ";
+        prov(A);
+        //main();
+}
 
 int main()
 {
