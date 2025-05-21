@@ -40,6 +40,12 @@ void task2(float& B)
 
 }
 
+void task3(float& A, float& B)
+{
+    cout<<"Сумма равна - "<<A+B<<endl;
+    //main();
+}
+
 int main()
 {
     setlocale(LC_ALL, "rus");
